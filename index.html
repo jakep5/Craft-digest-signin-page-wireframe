@@ -9,31 +9,32 @@
 <body>
     <nav role="navigation">
         <a id="returnToHome">Return to homepage</a>
-        <a id="signInLink">Sign in</a>
+        <a id="signUpLink">Sign up</a>
     </nav>
     <main role="main">
         <header role="banner">
-            <h1>Sign up for Craft Digest!</h1>
+            <h1>Existing user?</h1>
 
-            <form id="signUpForm">
-                <legend>Sign up</legend>
+            <form id="signInForm">
+                <legend>Sign in</legend>
                 <br />
-                <label for="signUpUsername">Username</label>
+                <label for="signInUsername">Username</label>
                 <input type="text" id="signUpUsername" />
                 <br />
-                <label for="signUpPassword">Password</label>
-                <input type="password" id="signUpPassword" />
+                <label for="signInPassword">Password</label>
+                <input type="password" id="signInPassword" />
                 <br />
-                <button type="submit" for="signUpForm">Submit</button>
+                <button type="submit" for="signInForm">Log in</button>
 
                 
             </form>
         </header>
 
         <section>
-            
+            <h2>Welcome back to Craft Digest</h2>
+            <p>{logo here}</p>
         </section>
     </main>
-    <footer role="content-info"><a>Click here to sign in instead </a></footer>
+    <footer role="content-info"><a>Click here to sign up instead </a></footer>
 </body>
 </html>
